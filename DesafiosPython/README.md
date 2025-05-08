@@ -4,17 +4,18 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 
 ## Lista de desafios
 
-| Nº  | Nome do Arquivo                | Descrição                                        | Data       |
-|-----|--------------------------------|--------------------------------------------------|------------|
-| 01  | 01_agenda_compromissos.py      | Agenda simples de compromissos com formatação    | 13/04/2025 |
-| 02  | 02_mensagens_personalizadas.py | Mensagens personalizadas com nomes e expressões  | 14/04/2025 |
-| 03  | 03_lista_tarefas_prioridades.py| Lista de tarefas organizadas por prioridade      | 15/04/2025 |
-| 04  | 04_calculadora_de_medias.py    | Calculadora de médias com avaliação de aprovação | 16/04/2025 |
-| 05  | 05_contagem_nomes.py           | Contagem de nomes e nome mais frequente          | 02/05/2025 |
-| 06  | 06_contagem_respostas_for.py   | Contagem de respostas com dicionário e for       | 04/05/2025 |
-| 07  | 07_contagem_respostas_max.py   | Contagem otimizada usando .get() e max()         | 04/05/2025 |
-| 08  | 08_super_vendedor.py           | Identifica o vendedor com mais vendas (ou empate)| 04/05/2025 |
-| 09  | 09_lista_nomes_unicos.py       | Ordena nomes únicos de uma lista com repetições  | 07/05/2025 |
+| Nº  | Nome do Arquivo                  | Descrição                                         | Data       |
+|-----|----------------------------------|---------------------------------------------------|------------|
+| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação     | 13/04/2025 |
+| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões   | 14/04/2025 |
+| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade       | 15/04/2025 |
+| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação  | 16/04/2025 |
+| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente           | 02/05/2025 |
+| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for        | 04/05/2025 |
+| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()          | 04/05/2025 |
+| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate) | 04/05/2025 |
+| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições   | 07/05/2025 |
+| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados | 08/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -164,6 +165,7 @@ Ao usar `max(vendas, key=vendas.get)`, o Python retorna apenas o primeiro vended
 
 ### Desafio 9: Lista de Nomes Únicos em Ordem Alfabética 🔤
 
+
 Neste desafio, o foco foi trabalhar com listas que possuem elementos duplicados. A missão era criar uma função que removesse os nomes repetidos e retornasse o resultado em ordem alfabética.
 
 **Principais características:**
@@ -179,4 +181,26 @@ A função transforma a lista original em um conjunto, eliminando nomes repetido
 - Conjuntos (`set`)  
 - Função `sorted()`  
 - Definição de função personalizada  
+- Impressão com `print()`
+
+### Desafio 10: Lista de Presença Inteligente 🧠
+
+Neste desafio, simulamos a organização de um evento com duas listas:
+- `convidados`: pessoas que foram oficialmente convidadas.
+- `presentes`: pessoas que realmente compareceram.
+
+O objetivo foi criar um programa que:
+1. Mostrasse quem compareceu e era realmente convidado.
+2. Apontasse quem apareceu sem ter sido convidado.
+3. Verificasse se todos os convidados compareceram ao evento.
+
+**Principais características:**
+- Uso de **conjuntos (`set`)** para facilitar comparações entre listas.
+- Uso das operações `intersection()`, `difference()` e `issubset()` para lógica de presença.
+- Condicional simples para checar cobertura total dos convidados.
+
+**Tecnologias/Conceitos usados:**
+- Conjuntos (`set`)
+- Operações de conjuntos: interseção, diferença, subconjunto
+- Condicionais (`if`)
 - Impressão com `print()`
