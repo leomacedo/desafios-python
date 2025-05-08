@@ -1,3 +1,4 @@
+# 14/04/2025
 # 💡 Mini-desafio Extra — Listas e for com criatividade!
 # Você vai criar um mini-programa que faz o seguinte:
 
@@ -10,24 +11,24 @@
 
 import random
 
-# Lista de mensagens
-expressões = ["Seja bem-vindo(a)!", "Que bom te ver!" , "Sinta-se em casa!"]
+# Lista de mensagens personalizadas para os nomes
+expressões = ["Seja bem-vindo(a)!", "Que bom te ver!", "Sinta-se em casa!"]
 
-# Lista de nomes
+# Lista para armazenar os nomes digitados pelo usuário
 lista = []
 
-# Coletando a quantidade
+# Perguntando quantos nomes o usuário quer adicionar
 quantidade = int(input("Quantos nomes você quer adicionar?"))
 
-# Preenchendo a lista com os nomes
+# Coletando os nomes do usuário e adicionando na lista
 for i in range(quantidade):
     nome = input(f"Digite o {i+1}º nome: ")
     lista.append(nome)
 
-# Exibindo mensagens personalizadas
+# Exibindo uma mensagem personalizada para cada nome da lista
 print("\n🎉 Mensagens personalizadas:")
-for i,nome in enumerate(lista, start =1):
-    mensagem = random.choice(expressões)
+for i, nome in enumerate(lista, start=1):
+    mensagem = random.choice(expressões)  # Escolhe uma mensagem aleatória da lista
     print(f"Nome {i}: {nome} - {mensagem}")
 
 
