@@ -144,7 +144,6 @@ Neste desafio, a solução é aprimorada com o uso do método `.get()` de dicion
 
 ### Desafio 8: Super Vendedor do Mês 🏆
 
-
 Neste desafio, trabalhamos com um dicionário que armazena o número de vendas realizadas por vendedores. O objetivo principal era identificar quem vendeu mais, e como tarefa extra, analisar o que ocorre em caso de empate.
 
 **Principais características:**
@@ -163,8 +162,9 @@ Ao usar `max(vendas, key=vendas.get)`, o Python retorna apenas o primeiro vended
 - Condicionais
 - Impressão com `f-strings`
 
-### Desafio 9: Lista de Nomes Únicos em Ordem Alfabética 🔤
+---
 
+### Desafio 9: Lista de Nomes Únicos em Ordem Alfabética 🔤
 
 Neste desafio, o foco foi trabalhar com listas que possuem elementos duplicados. A missão era criar uma função que removesse os nomes repetidos e retornasse o resultado em ordem alfabética.
 
@@ -182,6 +182,8 @@ A função transforma a lista original em um conjunto, eliminando nomes repetido
 - Função `sorted()`  
 - Definição de função personalizada  
 - Impressão com `print()`
+
+---
 
 ### Desafio 10: Lista de Presença Inteligente 🧠
 
@@ -204,3 +206,5 @@ O objetivo foi criar um programa que:
 - Operações de conjuntos: interseção, diferença, subconjunto
 - Condicionais (`if`)
 - Impressão com `print()`
+
+---
