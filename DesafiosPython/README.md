@@ -4,18 +4,20 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 
 ## Lista de desafios
 
-| Nº  | Nome do Arquivo                  | Descrição                                         | Data       |
-|-----|----------------------------------|---------------------------------------------------|------------|
-| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação     | 13/04/2025 |
-| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões   | 14/04/2025 |
-| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade       | 15/04/2025 |
-| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação  | 16/04/2025 |
-| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente           | 02/05/2025 |
-| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for        | 04/05/2025 |
-| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()          | 04/05/2025 |
-| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate) | 04/05/2025 |
-| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições   | 07/05/2025 |
-| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados | 08/05/2025 |
+| Nº  | Nome do Arquivo                  | Descrição                                                        | Data       |
+|-----|----------------------------------|------------------------------------------------------------------|------------|
+| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação                    | 13/04/2025 |
+| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões                  | 14/04/2025 |
+| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade                      | 15/04/2025 |
+| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação                 | 16/04/2025 |
+| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente                          | 02/05/2025 |
+| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for                       | 04/05/2025 |
+| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()                         | 04/05/2025 |
+| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate)                | 04/05/2025 |
+| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições                  | 07/05/2025 |
+| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                | 08/05/2025 |
+| 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores | 09/05/2025 |
+
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -187,6 +189,7 @@ A função transforma a lista original em um conjunto, eliminando nomes repetido
 
 ### Desafio 10: Lista de Presença Inteligente 🧠
 
+
 Neste desafio, simulamos a organização de um evento com duas listas:
 - `convidados`: pessoas que foram oficialmente convidadas.
 - `presentes`: pessoas que realmente compareceram.
@@ -206,5 +209,32 @@ O objetivo foi criar um programa que:
 - Operações de conjuntos: interseção, diferença, subconjunto
 - Condicionais (`if`)
 - Impressão com `print()`
+
+---
+
+### Desafio 11 – Sistema de Inventário de RPG 🧙‍♂️📦
+
+Descrição:
+Este desafio simula um sistema de inventário para um jogo de RPG. O programa armazena os itens coletados por um jogador, calcula quantidades, preços e fornece uma listagem completa do inventário de forma clara e automatizada.
+
+**Características principais:**
+- Armazena os itens coletados em uma **tupla**.
+- Cria um **dicionário de preços** dos itens disponíveis.
+- Gera:
+  - Um **relatório de quantidades** de cada item.
+  - Um **conjunto com os itens únicos**.
+  - O **valor total do inventário** (quantidade × preço).
+  - Uma **listagem detalhada** com nome, quantidade e valor por item.
+
+**Tecnologias/Conceitos usados:**
+- Tuplas
+- Dicionários
+- Conjuntos
+- Laços `for`
+- Métodos de dicionário como `.get()`
+- Função `print()`
+
+**Observação extra**
+Esse sistema é bem parecido com a lógica de jogos como Diablo ou Zelda, onde o personagem coleta diversos itens e o jogo precisa mostrar quantos ele tem e quanto vale tudo. O uso de dicionários e conjuntos mostra como estruturas simples podem representar inventários robustos em jogos reais.
 
 ---
