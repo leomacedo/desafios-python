@@ -17,7 +17,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições                  | 07/05/2025 |
 | 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                | 08/05/2025 |
 | 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores | 09/05/2025 |
-
+| 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	    | 12/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -236,5 +236,27 @@ Este desafio simula um sistema de inventário para um jogo de RPG. O programa ar
 
 **Observação extra**
 Esse sistema é bem parecido com a lógica de jogos como Diablo ou Zelda, onde o personagem coleta diversos itens e o jogo precisa mostrar quantos ele tem e quanto vale tudo. O uso de dicionários e conjuntos mostra como estruturas simples podem representar inventários robustos em jogos reais.
+
+---
+
+### Desafio 12: Estatísticas Básicas com Validação 📈
+
+Descrição:
+Este programa solicita ao usuário uma lista de números separados por espaço e, a partir dela, realiza diversos cálculos estatísticos como média, mediana, desvio padrão, raiz quadrada do maior número e fatorial do menor (se aplicável). O código faz validação dos dados e trata erros de entrada com mensagens claras.
+
+**Principais características:**
+- Validação dos dados digitados pelo usuário (ignora entradas não numéricas).
+- Cálculo de estatísticas: média, mediana e desvio padrão.
+- Cálculo da raiz quadrada do maior número.
+- Cálculo do fatorial do menor número, se for inteiro positivo.
+- Uso de bibliotecas math e statistics.
+
+**Tecnologias/Conceitos usados:**
+- Listas
+- Estrutura de repetição for com `try/except`
+- Funções `mean`, `median`, `stdev` da biblioteca `statistics`
+- Funções `sqrt` e `factorial` da biblioteca `math`
+- Condicionais `if/else`
+- Boas práticas de validação e mensagens amigáveis ao usuário
 
 ---
