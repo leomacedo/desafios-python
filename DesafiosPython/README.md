@@ -18,6 +18,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                | 08/05/2025 |
 | 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores | 09/05/2025 |
 | 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	    | 12/05/2025 |
+| 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                          | 13/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -241,6 +242,7 @@ Esse sistema é bem parecido com a lógica de jogos como Diablo ou Zelda, onde o
 
 ### Desafio 12: Estatísticas Básicas com Validação 📈
 
+
 Descrição:
 Este programa solicita ao usuário uma lista de números separados por espaço e, a partir dela, realiza diversos cálculos estatísticos como média, mediana, desvio padrão, raiz quadrada do maior número e fatorial do menor (se aplicável). O código faz validação dos dados e trata erros de entrada com mensagens claras.
 
@@ -258,5 +260,26 @@ Este programa solicita ao usuário uma lista de números separados por espaço e
 - Funções `sqrt` e `factorial` da biblioteca `math`
 - Condicionais `if/else`
 - Boas práticas de validação e mensagens amigáveis ao usuário
+
+---
+
+### Desafio 13: Entrada de Notas 🎓
+
+Este programa solicita ao usuário que digite uma lista de notas separadas por espaço. Ele valida cada entrada, descartando valores fora do intervalo de 0 a 10 e também entradas não numéricas. Se houver pelo menos uma nota válida, ele apresenta estatísticas como média, maior e menor nota.
+
+**Principais características:**
+- Validação robusta de entradas com tratamento de erros.
+- Mensagens de aviso para entradas inválidas.
+- Loop que permite nova tentativa caso nenhuma nota válida seja inserida.
+- Cálculo de estatísticas com a biblioteca `statistics`.
+- Fechamento do programa com a biblioteca `sys`.
+
+**Tecnologias/Conceitos usados:**
+- Estrutura de repetição `while`
+- Estrutura condicional `if/else`
+- Tratamento de exceções com `try/except`
+- Funções `input()`, `split()`, `sorted()`, `max()`, `min()`, `mean()`, `exit()`
+- Módulo `statistics` e `sys`
+- Saída formatada com f-strings
 
 ---
