@@ -19,6 +19,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores | 09/05/2025 |
 | 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	    | 12/05/2025 |
 | 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                          | 13/05/2025 |
+| 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração       | 15/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -265,6 +266,7 @@ Este programa solicita ao usuário uma lista de números separados por espaço e
 
 ### Desafio 13: Entrada de Notas 🎓
 
+
 Este programa solicita ao usuário que digite uma lista de notas separadas por espaço. Ele valida cada entrada, descartando valores fora do intervalo de 0 a 10 e também entradas não numéricas. Se houver pelo menos uma nota válida, ele apresenta estatísticas como média, maior e menor nota.
 
 **Principais características:**
@@ -281,5 +283,24 @@ Este programa solicita ao usuário que digite uma lista de notas separadas por e
 - Funções `input()`, `split()`, `sorted()`, `max()`, `min()`, `mean()`, `exit()`
 - Módulo `statistics` e `sys`
 - Saída formatada com f-strings
+
+---
+
+### Desafio 14: Calculadora de Médias 2.0 📚
+
+Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A lógica foi mantida, mas o código foi totalmente reestruturado para aplicar boas práticas como: organização em funções, validação robusta de entrada, separação de responsabilidades e mensagens mais amigáveis.
+
+**Principais características:**
+- Código modularizado em funções reutilizáveis.
+- Validação aprimorada com verificação de entrada numérica e faixas válidas (0 a 10).
+- Loop principal com repetição de execuções e opção de encerramento.
+- Uso de mensagens acolhedoras e motivadoras para a experiência do usuário.
+
+**Tecnologias/Conceitos usados:**
+- Funções (`def`)
+- Laços `while` e `for`
+- Condicionais `if/elif/else`
+- Tratamento de exceções com `try/except`
+- `input()` e `print()` com f-strings
 
 ---
