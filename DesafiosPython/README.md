@@ -20,6 +20,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	    | 12/05/2025 |
 | 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                          | 13/05/2025 |
 | 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração       | 15/05/2025 |
+| 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada         | 16/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -288,6 +289,7 @@ Este programa solicita ao usuário que digite uma lista de notas separadas por e
 
 ### Desafio 14: Calculadora de Médias 2.0 📚
 
+
 Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A lógica foi mantida, mas o código foi totalmente reestruturado para aplicar boas práticas como: organização em funções, validação robusta de entrada, separação de responsabilidades e mensagens mais amigáveis.
 
 **Principais características:**
@@ -302,5 +304,26 @@ Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A l�
 - Condicionais `if/elif/else`
 - Tratamento de exceções com `try/except`
 - `input()` e `print()` com f-strings
+
+---
+
+### Desafio 15: Consulta de Pokémon via API 🐾
+
+Este desafio simula uma Pokédex interativa que consulta informações de Pokémon usando a PokéAPI. O usuário digita o nome de um Pokémon e recebe dados como altura, peso, tipos (com emojis!) e nome formatado. O programa permite várias consultas seguidas e limpa a tela para uma melhor apresentação.
+
+**Principais características:**
+- Usa requisições HTTP com o módulo `requests` para buscar dados em tempo real.
+- Exibe os tipos do Pokémon com emojis personalizados.
+- Normaliza a entrada do usuário (`.lower()` e `strip()` implícito com `input()`).
+- Utiliza um loop contínuo com opção de sair.
+- Limpa a tela do terminal de forma multiplataforma (`os.system` com `cls/clear`).
+
+**Tecnologias/Conceitos usados:**
+- API pública (https://pokeapi.co)
+- Módulo `requests` (requisição HTTP GET)
+- Manipulação de dicionários e listas em JSON
+- Módulo `os` para comandos do sistema
+- F-strings para exibição formatada
+- Estruturas de controle: `if`, `while`, `break`, listas por compreensão
 
 ---
