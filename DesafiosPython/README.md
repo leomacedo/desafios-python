@@ -21,6 +21,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                          | 13/05/2025 |
 | 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração       | 15/05/2025 |
 | 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada         | 16/05/2025 |
+| 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension              | 19/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -309,6 +310,7 @@ Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A l�
 
 ### Desafio 15: Consulta de Pokémon via API 🐾
 
+
 Este desafio simula uma Pokédex interativa que consulta informações de Pokémon usando a PokéAPI. O usuário digita o nome de um Pokémon e recebe dados como altura, peso, tipos (com emojis!) e nome formatado. O programa permite várias consultas seguidas e limpa a tela para uma melhor apresentação.
 
 **Principais características:**
@@ -325,5 +327,25 @@ Este desafio simula uma Pokédex interativa que consulta informações de Pokém
 - Módulo `os` para comandos do sistema
 - F-strings para exibição formatada
 - Estruturas de controle: `if`, `while`, `break`, listas por compreensão
+
+---
+
+### Desafio 16: Formatação de Frases com List Comprehension 🧠📝
+
+O objetivo deste desafio era pegar uma lista de frases com palavras separadas por hífens (`-`) e transformá-las em frases legíveis, com as palavras capitalizadas e separadas por espaço.
+
+Esse desafio foi excelente para treinar **list comprehension** em dois níveis: primeiro para substituir os hífens, e depois para capitalizar cada palavra dentro das frases.
+
+**Principais características:**
+- Substituição de hífens (`-`) por espaços (` `) usando `.replace()`
+- Divisão da frase em palavras com `.split()`
+- Capitalização de cada palavra com `.capitalize()`
+- Reconstrução da frase com `' '.join()`
+- Tudo isso aplicado com list comprehension aninhada!
+
+**Tecnologias/Conceitos usados:**
+- List comprehension (com aninhamento)  
+- Métodos de string: `.replace()`, `.split()`, `.capitalize()`, `.join()`  
+- Impressão com `print()`
 
 ---
