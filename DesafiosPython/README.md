@@ -4,25 +4,25 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 
 ## Lista de desafios
 
-| Nº  | Nome do Arquivo                  | Descrição                                                        | Data       |
-|-----|----------------------------------|------------------------------------------------------------------|------------|
-| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação                    | 13/04/2025 |
-| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões                  | 14/04/2025 |
-| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade                      | 15/04/2025 |
-| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação                 | 16/04/2025 |
-| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente                          | 02/05/2025 |
-| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for                       | 04/05/2025 |
-| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()                         | 04/05/2025 |
-| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate)                | 04/05/2025 |
-| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições                  | 07/05/2025 |
-| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                | 08/05/2025 |
-| 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores | 09/05/2025 |
-| 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	    | 12/05/2025 |
-| 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                          | 13/05/2025 |
-| 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração       | 15/05/2025 |
-| 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada         | 16/05/2025 |
-| 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension              | 19/05/2025 |
-
+| Nº  | Nome do Arquivo                  | Descrição                                                          | Data       |
+|-----|----------------------------------|--------------------------------------------------------------------|------------|
+| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação                      | 13/04/2025 |
+| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões                    | 14/04/2025 |
+| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade                        | 15/04/2025 |
+| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação                   | 16/04/2025 |
+| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente                            | 02/05/2025 |
+| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for                         | 04/05/2025 |
+| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()                           | 04/05/2025 |
+| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate)                  | 04/05/2025 |
+| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições                    | 07/05/2025 |
+| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                  | 08/05/2025 |
+| 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores   | 09/05/2025 |
+| 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	      | 12/05/2025 |
+| 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                            | 13/05/2025 |
+| 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração         | 15/05/2025 |
+| 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada           | 16/05/2025 |
+| 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension                | 19/05/2025 |
+| 17  | 17_list_comprehension_funcoes.py | List comprehension com filtros e condicionais para pares e ímpares | 21/05/2025 |
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -332,6 +332,7 @@ Este desafio simula uma Pokédex interativa que consulta informações de Pokém
 
 ### Desafio 16: Formatação de Frases com List Comprehension 🧠📝
 
+
 O objetivo deste desafio era pegar uma lista de frases com palavras separadas por hífens (`-`) e transformá-las em frases legíveis, com as palavras capitalizadas e separadas por espaço.
 
 Esse desafio foi excelente para treinar **list comprehension** em dois níveis: primeiro para substituir os hífens, e depois para capitalizar cada palavra dentro das frases.
@@ -347,5 +348,29 @@ Esse desafio foi excelente para treinar **list comprehension** em dois níveis: 
 - List comprehension (com aninhamento)  
 - Métodos de string: `.replace()`, `.split()`, `.capitalize()`, `.join()`  
 - Impressão com `print()`
+
+---
+
+### Desafio 17: List Comprehension com Funções para Pares e Ímpares 🔍
+
+Este desafio apresenta duas funções utilizando **list comprehension** para manipular uma lista de números de formas diferentes:
+
+1. A primeira função, `dobro_dos_impares()`, retorna uma nova lista contendo o dobro **apenas** dos números ímpares da lista original.
+2. A segunda função, `imparx3_parmenos1()`, modifica todos os elementos da lista com base em uma lógica condicional: se o número for ímpar, multiplica por 3; se for par, subtrai 1.
+
+Ambas as funções foram implementadas de forma clara e concisa, com uso de comentários e nomes autoexplicativos.
+
+**Principais características:**
+- Uso de list comprehension com **filtro condicional (`if`)**.
+- Uso de list comprehension com **condicional inline (`if/else`)**.
+- Separação da lógica em **funções reutilizáveis**.
+- Testes com impressão dos resultados diretamente no final do código.
+
+**Tecnologias/Conceitos usados:**
+- List Comprehension  
+- Condicionais (`if`, `else`)  
+- Operadores aritméticos  
+- Funções (`def`)  
+- `print()` para exibição dos resultados
 
 ---
