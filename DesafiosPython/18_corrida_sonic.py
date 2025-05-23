@@ -20,7 +20,7 @@ def calcular_distancia(velocidade, tempo):
 for personagem, velocidade in personagens.items():
     distancia = calcular_distancia(velocidade, tempo)
     # Mostra a distância que cada personagem percorreu no tempo definido
-    print(f"{personagem} fez uma distância de {distancia} km no tempo de {tempo} minutos")
+    print(f"{personagem} fez uma distância de {distancia:.2f} km no tempo de {tempo} minutos")
 
 # Lista por compreensão para filtrar personagens que correram mais que 1.5 km
 rapidos = [
