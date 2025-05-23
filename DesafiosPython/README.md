@@ -23,6 +23,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada           | 16/05/2025 |
 | 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension                | 19/05/2025 |
 | 17  | 17_list_comprehension_funcoes.py | List comprehension com filtros e condicionais para pares e ímpares | 21/05/2025 |
+| 18  | 18_corrida_sonic.py              | Simula uma corrida entre personagens do universo Sonic             | 22/05/2025 |
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -371,6 +372,32 @@ Ambas as funções foram implementadas de forma clara e concisa, com uso de come
 - Condicionais (`if`, `else`)  
 - Operadores aritméticos  
 - Funções (`def`)  
+- `print()` para exibição dos resultados
+
+---
+
+### Desafio 18: Corrida do Sonic 🏁
+
+Este desafio simula uma corrida entre três personagens clássicos: Sonic, Tails e Knuckles. Cada um possui uma velocidade média diferente e, com base nisso, o programa calcula a distância percorrida por cada um em 3 minutos.
+Além disso, o programa:
+- Identifica quais personagens correram mais de 1,5 km nesse tempo.
+- Determina o vencedor da corrida, ou seja, quem percorreu a maior distância.
+
+**Principais características:**
+- Uso de dicionário (`dict`) para armazenar os personagens e suas velocidades.
+- Função com parâmetros e retorno para o cálculo da distância.
+- Loop `for` com `.items()` para percorrer as chaves e valores do dicionário.
+- List comprehension com condicional (`if`) para filtrar os personagens que correram mais rápido.
+- Criação de um novo dicionário com as distâncias calculadas.
+- Uso da função `max()` com argumento `key` para identificar o vencedor.
+
+**Tecnologias/Conceitos usados:**
+- Dicionários (`dict`)
+- Funções (`def`, parâmetros, retorno)
+- Conversão de unidades (minutos para horas)
+- List comprehension
+- Laços (`for`) e método `.items()`
+- Função `max()` com argumento `key`
 - `print()` para exibição dos resultados
 
 ---
