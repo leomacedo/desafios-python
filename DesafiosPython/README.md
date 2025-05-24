@@ -24,6 +24,8 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension                | 19/05/2025 |
 | 17  | 17_list_comprehension_funcoes.py | List comprehension com filtros e condicionais para pares e ímpares | 21/05/2025 |
 | 18  | 18_corrida_sonic.py              | Simula uma corrida entre personagens do universo Sonic             | 22/05/2025 |
+| 19  | 19_lista_herois_sonic.py         | Manipulação de listas com slice, indexação negativa e del          | 23/05/2025 |
+
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -378,6 +380,7 @@ Ambas as funções foram implementadas de forma clara e concisa, com uso de come
 
 ### Desafio 18: Corrida do Sonic 🏁
 
+
 Este desafio simula uma corrida entre três personagens clássicos: Sonic, Tails e Knuckles. Cada um possui uma velocidade média diferente e, com base nisso, o programa calcula a distância percorrida por cada um em 3 minutos.
 Além disso, o programa:
 - Identifica quais personagens correram mais de 1,5 km nesse tempo.
@@ -399,5 +402,27 @@ Além disso, o programa:
 - Laços (`for`) e método `.items()`
 - Função `max()` com argumento `key`
 - `print()` para exibição dos resultados
+
+---
+
+### Desafio 19: Manipulação de Lista com Heróis do Universo Sonic 🌀🦔
+
+Este desafio propõe uma série de operações sobre uma lista de heróis do universo Sonic, com o objetivo de treinar comandos como indexação negativa, fatiamento (`slice`), remoção de elementos com `del`, e compreensão de listas.
+
+**Principais características:**
+- Acesso ao último item da lista com indexação negativa (`herois[-1]`).
+- Criação de sublistas usando `slice` com step positivo e negativo.
+- Remoção de um item específico com `del`.
+- Inversão de uma lista usando `[::-1]`.
+- Inversão de strings com compreensão de listas (`[nome[::-1] for nome in herois]`).
+- Função auxiliar para exibir mensagens formatadas com `join()`.
+
+**Tecnologias/Conceitos usados:**
+- Listas e slicing
+- Indexação negativa
+- Comando `del`
+- Compreensão de listas
+- Funções personalizadas
+- `print()` com f-strings e `join()`
 
 ---
