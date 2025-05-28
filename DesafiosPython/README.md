@@ -26,6 +26,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 18  | 18_corrida_sonic.py              | Simula uma corrida entre personagens do universo Sonic             | 22/05/2025 |
 | 19  | 19_lista_herois_sonic.py         | Manipulação de listas com slice, indexação negativa e del          | 23/05/2025 |
 | 20  | 20_personagens_classes.py        | Classe de personagens com atributos, métodos e simulação RPG       | 26/05/2025 |
+| 21  | 21_cadastro_livros.py            | Cadastro de livros com classe, atributos e método de exibição      | 27/05/2025 |
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -429,6 +430,7 @@ Este desafio propõe uma série de operações sobre uma lista de heróis do uni
 
 ### Desafio 20: Personagens com Classes e Métodos ⚔️🧙‍♀️🏹
 
+
 Este desafio introduz o conceito de **Programação Orientada a Objetos (POO)** com foco na criação de personagens para um jogo estilo RPG. A classe `Personagem` foi criada com atributos e métodos personalizados, como `exibir_ficha()`, `receber_dano()` e `subir_nivel()`.
 
 Três personagens foram instanciados com dados diferentes e, em seguida, passaram por simulações de dano, evolução de nível e exibição de ficha.
@@ -446,5 +448,24 @@ Três personagens foram instanciados com dados diferentes e, em seguida, passara
 - Métodos com `self`  
 - F-strings para exibição  
 - Simulação de interações típicas de jogos (dano, evolução, ficha)
+
+---
+
+### Desafio 21: Cadastro de Livros com Classe e Método 📚
+
+Este desafio introduz a construção de uma classe chamada `Livro`, com atributos como título, autor, ano e gênero. Cada instância representa um livro diferente. O método `exibir_dados()` foi criado para exibir as informações de cada livro de forma formatada. Os livros foram armazenados em uma lista e exibidos em ordem, com numeração dinâmica usando `enumerate`.
+
+**Principais características:**
+- Criação de uma classe com atributos personalizados.
+- Método `exibir_dados()` que imprime as informações do livro.
+- Armazenamento dos objetos em uma lista.
+- Uso de `enumerate()` para exibir os livros com numeração automática.
+
+**Tecnologias/Conceitos usados:**
+- Programação Orientada a Objetos (POO)  
+- Classes e construtores (`__init__`)  
+- Métodos com `self`  
+- Listas e `enumerate()`  
+- Impressão formatada com `f-strings`
 
 ---
