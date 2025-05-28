@@ -27,6 +27,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 19  | 19_lista_herois_sonic.py         | Manipulação de listas com slice, indexação negativa e del          | 23/05/2025 |
 | 20  | 20_personagens_classes.py        | Classe de personagens com atributos, métodos e simulação RPG       | 26/05/2025 |
 | 21  | 21_cadastro_livros.py            | Cadastro de livros com classe, atributos e método de exibição      | 27/05/2025 |
+| 22  | 22_boletim_aluno.py              | Classe `Aluno` com métodos para adicionar nota e calcular média    | 28/05/2025 |
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -453,6 +454,7 @@ Três personagens foram instanciados com dados diferentes e, em seguida, passara
 
 ### Desafio 21: Cadastro de Livros com Classe e Método 📚
 
+
 Este desafio introduz a construção de uma classe chamada `Livro`, com atributos como título, autor, ano e gênero. Cada instância representa um livro diferente. O método `exibir_dados()` foi criado para exibir as informações de cada livro de forma formatada. Os livros foram armazenados em uma lista e exibidos em ordem, com numeração dinâmica usando `enumerate`.
 
 **Principais características:**
@@ -467,5 +469,26 @@ Este desafio introduz a construção de uma classe chamada `Livro`, com atributo
 - Métodos com `self`  
 - Listas e `enumerate()`  
 - Impressão formatada com `f-strings`
+
+---
+
+### Desafio 22: Boletim Escolar com Classe `Aluno` 📝🎓
+
+Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as informações básicas de um estudante: nome, matrícula e lista de notas. Foram implementados métodos para adicionar novas notas dinamicamente, calcular a média utilizando a biblioteca `statistics` e exibir todos os dados do aluno com uma formatação clara e amigável.
+
+**Principais características:**
+- Criação de uma **classe com construtor `__init__()`** para receber os dados do aluno.
+- Método `adicionar_nota()` para incluir novas notas à lista.
+- Método `calcular_media()` que retorna a média com a função `statistics.mean()`.
+- Método `exibir_dados()` que mostra todas as informações organizadas.
+- Uso do `return` dentro de métodos para manipulação posterior dos valores.
+
+**Tecnologias/Conceitos usados:**
+- Programação Orientada a Objetos (POO)  
+- Classes, atributos e métodos  
+- Bibliotecas externas (`statistics`)  
+- Métodos com `self` e `return`  
+- Listas dinâmicas  
+- Impressão formatada com f-strings
 
 ---
