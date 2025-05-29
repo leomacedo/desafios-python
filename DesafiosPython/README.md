@@ -28,6 +28,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 20  | 20_personagens_classes.py        | Classe de personagens com atributos, métodos e simulação RPG       | 26/05/2025 |
 | 21  | 21_cadastro_livros.py            | Cadastro de livros com classe, atributos e método de exibição      | 27/05/2025 |
 | 22  | 22_boletim_aluno.py              | Classe `Aluno` com métodos para adicionar nota e calcular média    | 28/05/2025 |
+| 23  | 23_conta_bancaria.py             | Simulação de conta bancária com encapsulamento e métodos seguros   | 29/05/2025 |
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -474,6 +475,7 @@ Este desafio introduz a construção de uma classe chamada `Livro`, com atributo
 
 ### Desafio 22: Boletim Escolar com Classe `Aluno` 📝🎓
 
+
 Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as informações básicas de um estudante: nome, matrícula e lista de notas. Foram implementados métodos para adicionar novas notas dinamicamente, calcular a média utilizando a biblioteca `statistics` e exibir todos os dados do aluno com uma formatação clara e amigável.
 
 **Principais características:**
@@ -490,5 +492,25 @@ Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as inform
 - Métodos com `self` e `return`  
 - Listas dinâmicas  
 - Impressão formatada com f-strings
+
+---
+
+### Desafio 23: Controle Bancário com Encapsulamento 🏦💰
+
+Este desafio simula o funcionamento de uma conta bancária usando os princípios da Programação Orientada a Objetos com foco em **encapsulamento**. A classe `ContaBancaria` protege o saldo da conta usando atributos privados e fornece métodos para depositar, sacar, consultar o saldo e exibir os dados da conta de maneira segura.
+
+**Principais características:**
+- Atributo `__saldo` encapsulado com **dois underlines** para impedir acesso externo direto.
+- Métodos `depositar()` e `sacar()` que validam os valores antes de modificar o saldo.
+- Mensagens amigáveis para informar o usuário sobre o sucesso ou erro das operações.
+- Método `consultar_saldo()` que retorna o saldo apenas por meio de acesso controlado.
+- Método `exibir_dados()` com exibição formatada para visualização da conta.
+
+**Tecnologias/Conceitos usados:**
+- Programação Orientada a Objetos (POO)  
+- Encapsulamento com `__atributo`  
+- Métodos de classe com `self`  
+- Condicionais `if/else`  
+- Impressão com f-strings
 
 ---
