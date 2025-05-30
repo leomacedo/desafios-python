@@ -29,6 +29,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 21  | 21_cadastro_livros.py            | Cadastro de livros com classe, atributos e método de exibição      | 27/05/2025 |
 | 22  | 22_boletim_aluno.py              | Classe `Aluno` com métodos para adicionar nota e calcular média    | 28/05/2025 |
 | 23  | 23_conta_bancaria.py             | Simulação de conta bancária com encapsulamento e métodos seguros   | 29/05/2025 |
+| 24  | 24_heranca_personagens_rpg.py    | Sistema de RPG com classes filhas e herança entre personagens      | 30/05/2025 |
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -497,6 +498,7 @@ Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as inform
 
 ### Desafio 23: Controle Bancário com Encapsulamento 🏦💰
 
+
 Este desafio simula o funcionamento de uma conta bancária usando os princípios da Programação Orientada a Objetos com foco em **encapsulamento**. A classe `ContaBancaria` protege o saldo da conta usando atributos privados e fornece métodos para depositar, sacar, consultar o saldo e exibir os dados da conta de maneira segura.
 
 **Principais características:**
@@ -512,5 +514,26 @@ Este desafio simula o funcionamento de uma conta bancária usando os princípios
 - Métodos de classe com `self`  
 - Condicionais `if/else`  
 - Impressão com f-strings
+
+---
+
+### Desafio 24: Herança em Personagens de RPG 🧙🛡️👹
+
+Este desafio utiliza o conceito de **herança em programação orientada a objetos** para criar uma hierarquia entre classes. Foi implementada uma classe base `Personagem`, com atributos e métodos comuns, e três classes derivadas (`Guerreiro`, `Mago` e `Monstro`) que herdam suas características e têm métodos próprios.
+
+A simulação representa um pequeno combate com ataques, recebimento de dano e exibição dos status de cada personagem.
+
+**Principais características:**
+- Uso de **herança** com `super()` para reutilizar código da classe base.
+- Métodos específicos em classes derivadas, representando comportamentos únicos.
+- Redução e controle de pontos de vida dos personagens.
+- Organização clara e comentada para facilitar o entendimento.
+
+**Tecnologias/Conceitos usados:**
+- Classes e objetos  
+- Herança com `super()`  
+- Métodos personalizados  
+- Encapsulamento leve com lógica de atributos  
+- Impressões organizadas para simular um mini sistema de RPG
 
 ---
