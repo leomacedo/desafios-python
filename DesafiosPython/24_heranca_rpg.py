@@ -31,7 +31,7 @@ class Guerreiro(Personagem):
 
     # Método exclusivo do Guerreiro
     def atacar(self):
-        print(f"O Guerreiro {self.nome} ataca com a espada")
+        print(f"O Guerreiro {self.nome} ataca com a espada!")
 
 # Classe Mago herda da classe Personagem
 class Mago(Personagem):
@@ -49,11 +49,11 @@ class Monstro(Personagem):
 
     # Método exclusivo do Monstro
     def patada(self):
-        print(f"O Monstro {self.nome} atacou com uma patada")
+        print(f"O Monstro {self.nome} atacou com uma patada!")
 
 # Instanciando personagens com atributos personalizados
 guerreiro = Guerreiro("Leo", 10, 10000, "Guerreiro")
-mago = Mago("ChatGpt", 9, 9000, "Mago")
+mago = Mago("Gui", 9, 9000, "Mago")
 monstro = Monstro("Medo", 3, 3000, "Monstro")
 
 # Simulação da batalha entre os personagens
