@@ -4,32 +4,33 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 
 ## Lista de desafios
 
-| Nº  | Nome do Arquivo                  | Descrição                                                          | Data       |
-|-----|----------------------------------|--------------------------------------------------------------------|------------|
-| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação                      | 13/04/2025 |
-| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões                    | 14/04/2025 |
-| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade                        | 15/04/2025 |
-| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação                   | 16/04/2025 |
-| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente                            | 02/05/2025 |
-| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for                         | 04/05/2025 |
-| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()                           | 04/05/2025 |
-| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate)                  | 04/05/2025 |
-| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições                    | 07/05/2025 |
-| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                  | 08/05/2025 |
-| 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores   | 09/05/2025 |
-| 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	      | 12/05/2025 |
-| 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                            | 13/05/2025 |
-| 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração         | 15/05/2025 |
-| 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada           | 16/05/2025 |
-| 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension                | 19/05/2025 |
-| 17  | 17_list_comprehension_funcoes.py | List comprehension com filtros e condicionais para pares e ímpares | 21/05/2025 |
-| 18  | 18_corrida_sonic.py              | Simula uma corrida entre personagens do universo Sonic             | 22/05/2025 |
-| 19  | 19_lista_herois_sonic.py         | Manipulação de listas com slice, indexação negativa e del          | 23/05/2025 |
-| 20  | 20_personagens_classes.py        | Classe de personagens com atributos, métodos e simulação RPG       | 26/05/2025 |
-| 21  | 21_cadastro_livros.py            | Cadastro de livros com classe, atributos e método de exibição      | 27/05/2025 |
-| 22  | 22_boletim_aluno.py              | Classe `Aluno` com métodos para adicionar nota e calcular média    | 28/05/2025 |
-| 23  | 23_conta_bancaria.py             | Simulação de conta bancária com encapsulamento e métodos seguros   | 29/05/2025 |
-| 24  | 24_heranca_personagens_rpg.py    | Sistema de RPG com classes filhas e herança entre personagens      | 30/05/2025 |
+| Nº  | Nome do Arquivo                  | Descrição                                                            | Data       |
+|-----|----------------------------------|----------------------------------------------------------------------|------------|
+| 01  | 01_agenda_compromissos.py        | Agenda simples de compromissos com formatação                        | 13/04/2025 |
+| 02  | 02_mensagens_personalizadas.py   | Mensagens personalizadas com nomes e expressões                      | 14/04/2025 |
+| 03  | 03_lista_tarefas_prioridades.py  | Lista de tarefas organizadas por prioridade                          | 15/04/2025 |
+| 04  | 04_calculadora_de_medias.py      | Calculadora de médias com avaliação de aprovação                     | 16/04/2025 |
+| 05  | 05_contagem_nomes.py             | Contagem de nomes e nome mais frequente                              | 02/05/2025 |
+| 06  | 06_contagem_respostas_for.py     | Contagem de respostas com dicionário e for                           | 04/05/2025 |
+| 07  | 07_contagem_respostas_max.py     | Contagem otimizada usando .get() e max()                             | 04/05/2025 |
+| 08  | 08_super_vendedor.py             | Identifica o vendedor com mais vendas (ou empate)                    | 04/05/2025 |
+| 09  | 09_lista_nomes_unicos.py         | Ordena nomes únicos de uma lista com repetições                      | 07/05/2025 |
+| 10  | 10_lista_presenca_inteligente.py | Analisa lista de presença com base nos convidados                    | 08/05/2025 |
+| 11  | 11_inventario_rpg.py             | Sistema de inventário com tupla, dicionário e cálculo de valores     | 09/05/2025 |
+| 12	| 12_estatisticas_basicas.py	     | Estatísticas básicas com validações e operações matemáticas	        | 12/05/2025 |
+| 13  | 13_entrada_de_notas.py           | Coleta e análise de notas com validação                              | 13/05/2025 |
+| 14  | 14_calculadora_de_medias_2.0.py  | Versão aprimorada da calculadora de médias com refatoração           | 15/05/2025 |
+| 15  | 15_consulta_pokemon_api.py       | Consulta Pokémon usando API pública e exibição formatada             | 16/05/2025 |
+| 16  | 16_formatar_frases.py            | Formata frases com hífens usando list comprehension                  | 19/05/2025 |
+| 17  | 17_list_comprehension_funcoes.py | List comprehension com filtros e condicionais para pares e ímpares   | 21/05/2025 |
+| 18  | 18_corrida_sonic.py              | Simula uma corrida entre personagens do universo Sonic               | 22/05/2025 |
+| 19  | 19_lista_herois_sonic.py         | Manipulação de listas com slice, indexação negativa e del            | 23/05/2025 |
+| 20  | 20_personagens_classes.py        | Classe de personagens com atributos, métodos e simulação RPG         | 26/05/2025 |
+| 21  | 21_cadastro_livros.py            | Cadastro de livros com classe, atributos e método de exibição        | 27/05/2025 |
+| 22  | 22_boletim_aluno.py              | Classe `Aluno` com métodos para adicionar nota e calcular média      | 28/05/2025 |
+| 23  | 23_conta_bancaria.py             | Simulação de conta bancária com encapsulamento e métodos seguros     | 29/05/2025 |
+| 24  | 24_heranca_rpg.py                | Simulação de personagens em RPG com herança e métodos personalizados | 30/05/2025 |
+
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
@@ -526,14 +527,15 @@ A simulação representa um pequeno combate com ataques, recebimento de dano e e
 **Principais características:**
 - Uso de **herança** com `super()` para reutilizar código da classe base.
 - Métodos específicos em classes derivadas, representando comportamentos únicos.
+- O método especial `__str__()` foi implementado para exibir os dados de cada personagem de forma amigável e direta.
 - Redução e controle de pontos de vida dos personagens.
-- Organização clara e comentada para facilitar o entendimento.
 
 **Tecnologias/Conceitos usados:**
 - Classes e objetos  
 - Herança com `super()`  
 - Métodos personalizados  
 - Encapsulamento leve com lógica de atributos  
-- Impressões organizadas para simular um mini sistema de RPG
+- Método especial `__str__()`
+- Impressão formatada com `f-strings`
 
 ---

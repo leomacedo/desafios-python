@@ -3,18 +3,16 @@
 
 # Classe base que representa um personagem genérico
 class Personagem:
-    def __init__(self, nome, nivel, vida):
+    def __init__(self, nome, nivel, vida, classe):
         # Atributos comuns a todos os personagens
         self.nome = nome
         self.nivel = nivel
         self.vida = vida
+        self.classe = classe
 
     # Método para exibir os atributos do personagem
-    def exibir_status(self):
-        print(f"Nome: {self.nome}")
-        print(f"Nivel: {self.nivel}")
-        print(f"Vida : {self.vida}")
-        print()
+    def __str__(self):
+        return f"Personagem: {self.nome} | Classe: {self.classe} | Nível: {self.nivel} | Vida: {self.vida}"
 
     # Método para reduzir a vida do personagem quando ele recebe dano
     def receber_dano(self, dano):
@@ -27,9 +25,9 @@ class Personagem:
 
 # Classe Guerreiro herda da classe Personagem
 class Guerreiro(Personagem):
-    def __init__(self, nome, nivel, vida):
+    def __init__(self, nome, nivel, vida, classe):
         # Chama o construtor da classe pai
-        super().__init__(nome, nivel, vida)
+        super().__init__(nome, nivel, vida, classe)
 
     # Método exclusivo do Guerreiro
     def atacar(self):
@@ -37,8 +35,8 @@ class Guerreiro(Personagem):
 
 # Classe Mago herda da classe Personagem
 class Mago(Personagem):
-    def __init__(self, nome, nivel, vida):
-        super().__init__(nome, nivel, vida)
+    def __init__(self, nome, nivel, vida, classe):
+        super().__init__(nome, nivel, vida, classe)
 
     # Método exclusivo do Mago
     def lancar_magia(self):
@@ -46,17 +44,17 @@ class Mago(Personagem):
 
 # Classe Monstro herda da classe Personagem
 class Monstro(Personagem):
-    def __init__(self, nome, nivel, vida):
-        super().__init__(nome, nivel, vida)
+    def __init__(self, nome, nivel, vida, classe):
+        super().__init__(nome, nivel, vida, classe)
 
     # Método exclusivo do Monstro
     def patada(self):
         print(f"O Monstro {self.nome} atacou com uma patada")
 
 # Instanciando personagens com atributos personalizados
-guerreiro = Guerreiro("Leo", 10, 10000)
-mago = Mago("Gui", 9, 9000)
-monstro = Monstro("Medo", 3, 3000)
+guerreiro = Guerreiro("Leo", 10, 10000, "Guerreiro")
+mago = Mago("ChatGpt", 9, 9000, "Mago")
+monstro = Monstro("Medo", 3, 3000, "Monstro")
 
 # Simulação da batalha entre os personagens
 monstro.patada()
@@ -68,13 +66,6 @@ monstro.receber_dano(1700)
 
 # Exibe o status atualizado de todos os personagens após a batalha
 print(f"\nStatus dos personagens:")
-guerreiro.exibir_status()
-mago.exibir_status()
-monstro.exibir_status()
-
-
-
-
-    
-
-
+print(guerreiro)
+print(mago)
+print(monstro)
