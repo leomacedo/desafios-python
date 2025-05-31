@@ -47,7 +47,7 @@ Clique para ir direto ao desafio desejado:
 - [Desafio 8: Super Vendedor do Mês](#desafio-8-super-vendedor-do-mês-)
 - [Desafio 9: Lista de Nomes Únicos em Ordem Alfabética](#desafio-9-lista-de-nomes-únicos-em-ordem-alfabética-)
 - [Desafio 10: Lista de Presença Inteligente](#desafio-10-lista-de-presença-inteligente-)
-- [Desafio 11 – Sistema de Inventário de RPG](#desafio-11--sistema-de-inventário-de-rpg-)
+- [Desafio 11: Sistema de Inventário de RPG](#desafio-11--sistema-de-inventário-de-rpg-)
 - [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação-)
 - [Desafio 13: Entrada de Notas](#desafio-13-entrada-de-notas-)
 - [Desafio 14: Calculadora de Médias 2.0](#desafio-14-calculadora-de-médias-20-)
@@ -258,7 +258,7 @@ O objetivo foi criar um programa que:
 
 ---
 
-### Desafio 11 – Sistema de Inventário de RPG 🧙‍♂️📦
+### Desafio 11: Sistema de Inventário de RPG 🧙‍♂️📦
 
 Descrição:
 Este desafio simula um sistema de inventário para um jogo de RPG. O programa armazena os itens coletados por um jogador, calcula quantidades, preços e fornece uma listagem completa do inventário de forma clara e automatizada.
