@@ -40,7 +40,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 Clique para ir direto ao desafio desejado:
 
 - [Desafio 1: Agenda de Compromissos](#desafio-1-agenda-de-compromissos-️)
-- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas)
+- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas-)
 - [Desafio 3: Lista de Tarefas com Prioridades](#desafio-3-lista-de-tarefas-com-prioridades-)
 - [Desafio 4: Calculadora de Médias com Listas](#desafio-4-calculadora-de-médias-com-listas-)
 - [Desafio 5: Contagem de Nomes e Nome Mais Frequente](#desafio-5-contagem-de-nomes-e-nome-mais-frequente-)
@@ -50,7 +50,7 @@ Clique para ir direto ao desafio desejado:
 - [Desafio 9: Lista de Nomes Únicos em Ordem Alfabética](#desafio-9-lista-de-nomes-únicos-em-ordem-alfabética-)
 - [Desafio 10: Lista de Presença Inteligente](#desafio-10-lista-de-presença-inteligente-)
 - [Desafio 11: Sistema de Inventário de RPG](#desafio-11-sistema-de-inventário-de-rpg-)
-- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação)
+- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação-)
 - [Desafio 13: Entrada de Notas](#desafio-13-entrada-de-notas-)
 - [Desafio 14: Calculadora de Médias 2.0](#desafio-14-calculadora-de-médias-20-)
 - [Desafio 15: Consulta de Pokémon via API](#desafio-15-consulta-de-pokémon-via-api-)
@@ -280,7 +280,7 @@ O objetivo foi criar um programa que:
 
 ---
 
-### Desafio 11: Sistema de Inventário de RPG 🧙‍♂️📦
+### Desafio 11: Sistema de Inventário de RPG 🧙📦
 
 Descrição:
 Este desafio simula um sistema de inventário para um jogo de RPG. O programa armazena os itens coletados por um jogador, calcula quantidades, preços e fornece uma listagem completa do inventário de forma clara e automatizada.
@@ -506,7 +506,7 @@ Este desafio propõe uma série de operações sobre uma lista de heróis do uni
 
 ---
 
-### Desafio 20: Personagens com Classes e Métodos ⚔️🧙‍♀️🏹
+### Desafio 20: Personagens com Classes e Métodos
 
 
 Este desafio introduz o conceito de **Programação Orientada a Objetos (POO)** com foco na criação de personagens para um jogo estilo RPG. A classe `Personagem` foi criada com atributos e métodos personalizados, como `exibir_ficha()`, `receber_dano()` e `subir_nivel()`.
@@ -600,7 +600,7 @@ Este desafio simula o funcionamento de uma conta bancária usando os princípios
 
 ---
 
-### Desafio 24: Herança em Personagens de RPG 🧙🛡️👹
+### Desafio 24: Herança em Personagens de RPG
 
 
 Este desafio utiliza o conceito de **herança em programação orientada a objetos** para criar uma hierarquia entre classes. Foi implementada uma classe base `Personagem`, com atributos e métodos comuns, e três classes derivadas (`Guerreiro`, `Mago` e `Monstro`) que herdam suas características e têm métodos próprios.
