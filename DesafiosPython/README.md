@@ -35,10 +35,12 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 
 ## Índice de Desafios
 
+<a name="topo"></a>
+
 Clique para ir direto ao desafio desejado:
 
 - [Desafio 1: Agenda de Compromissos](#desafio-1-agenda-de-compromissos-️)
-- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas-️)
+- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas)
 - [Desafio 3: Lista de Tarefas com Prioridades](#desafio-3-lista-de-tarefas-com-prioridades-)
 - [Desafio 4: Calculadora de Médias com Listas](#desafio-4-calculadora-de-médias-com-listas-)
 - [Desafio 5: Contagem de Nomes e Nome Mais Frequente](#desafio-5-contagem-de-nomes-e-nome-mais-frequente-)
@@ -48,7 +50,7 @@ Clique para ir direto ao desafio desejado:
 - [Desafio 9: Lista de Nomes Únicos em Ordem Alfabética](#desafio-9-lista-de-nomes-únicos-em-ordem-alfabética-)
 - [Desafio 10: Lista de Presença Inteligente](#desafio-10-lista-de-presença-inteligente-)
 - [Desafio 11: Sistema de Inventário de RPG](#desafio-11--sistema-de-inventário-de-rpg-)
-- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação-)
+- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação)
 - [Desafio 13: Entrada de Notas](#desafio-13-entrada-de-notas-)
 - [Desafio 14: Calculadora de Médias 2.0](#desafio-14-calculadora-de-médias-20-)
 - [Desafio 15: Consulta de Pokémon via API](#desafio-15-consulta-de-pokémon-via-api-)
@@ -56,11 +58,11 @@ Clique para ir direto ao desafio desejado:
 - [Desafio 17: List Comprehension com Funções para Pares e Ímpares](#desafio-17-list-comprehension-com-funções-para-pares-e-ímpares-)
 - [Desafio 18: Corrida do Sonic](#desafio-18-corrida-do-sonic-)
 - [Desafio 19: Manipulação de Lista com Heróis do Universo Sonic](#desafio-19-manipulação-de-lista-com-heróis-do-universo-sonic-)
-- [Desafio 20: Personagens com Classes e Métodos](#desafio-20-personagens-com-classes-e-métodos-)
+- [Desafio 20: Personagens com Classes e Métodos](#desafio-20-personagens-com-classes-e-métodos)
 - [Desafio 21: Cadastro de Livros com Classe e Método](#desafio-21-cadastro-de-livros-com-classe-e-método-)
 - [Desafio 22: Boletim Escolar com Classe `Aluno`](#desafio-22-boletim-escolar-com-classe-aluno-)
 - [Desafio 23: Controle Bancário com Encapsulamento](#desafio-23-controle-bancário-com-encapsulamento-)
-- [Desafio 24: Herança em Personagens de RPG](#desafio-24-herança-em-personagens-de-rpg-)
+- [Desafio 24: Herança em Personagens de RPG](#desafio-24-herança-em-personagens-de-rpg)
 - [Desafio 25: Sistema de Cadastro de Funcionários com Abstração](#desafio-25-sistema-de-cadastro-de-funcionários-com-abstração-)
 - [Desafio 26: Zoo dos Animais Sonoros](#desafio-26-zoo-dos-animais-sonoros-)
 
@@ -85,6 +87,8 @@ Este programa solicita ao usuário que insira três compromissos para o dia e os
 - `input()` e `print()`  
 - Formatação de strings com f-strings
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 2: Mensagens Personalizadas 🎉
@@ -101,6 +105,8 @@ Neste programa, o usuário pode adicionar um número específico de nomes e, par
 - Função `random.choice()`  
 - Laços `for`  
 - `input()` e `print()`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -119,6 +125,8 @@ Este programa permite ao usuário cadastrar uma quantidade específica de tarefa
 - Laço `for`  
 - Função `input()` e `print()`
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 4: Calculadora de Médias com Listas 🧪
@@ -136,6 +144,8 @@ Neste programa, o usuário pode adicionar quantas notas quiser e, ao final, o pr
 - Funções `input()` e `print()`  
 - Formatação de números com `"{:.2f}"`
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 5: Contagem de Nomes e Nome Mais Frequente 📊
@@ -152,6 +162,8 @@ Neste programa, a função conta quantas vezes um nome aparece em uma lista e re
 - Funções  
 - Uso de variáveis globais  
 - Função `list.count()`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -171,6 +183,8 @@ Neste programa, o objetivo é contar quantas vezes cada aluno respondeu a uma pe
 - Condicionais `if`  
 - `input()` e `print()`
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 7: Contagem de Respostas com Métodos Avançados 🔧
@@ -187,6 +201,8 @@ Neste desafio, a solução é aprimorada com o uso do método `.get()` de dicion
 - Método `.get()`  
 - Função `max()`  
 - Laços `for`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -210,6 +226,8 @@ Ao usar `max(vendas, key=vendas.get)`, o Python retorna apenas o primeiro vended
 - Condicionais
 - Impressão com `f-strings`
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 9: Lista de Nomes Únicos em Ordem Alfabética 🔤
@@ -230,6 +248,8 @@ A função transforma a lista original em um conjunto, eliminando nomes repetido
 - Função `sorted()`  
 - Definição de função personalizada  
 - Impressão com `print()`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -255,6 +275,8 @@ O objetivo foi criar um programa que:
 - Operações de conjuntos: interseção, diferença, subconjunto
 - Condicionais (`if`)
 - Impressão com `print()`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -283,6 +305,8 @@ Este desafio simula um sistema de inventário para um jogo de RPG. O programa ar
 **Observação extra**
 Esse sistema é bem parecido com a lógica de jogos como Diablo ou Zelda, onde o personagem coleta diversos itens e o jogo precisa mostrar quantos ele tem e quanto vale tudo. O uso de dicionários e conjuntos mostra como estruturas simples podem representar inventários robustos em jogos reais.
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 12: Estatísticas Básicas com Validação 📈
@@ -306,6 +330,8 @@ Este programa solicita ao usuário uma lista de números separados por espaço e
 - Condicionais `if/else`
 - Boas práticas de validação e mensagens amigáveis ao usuário
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 13: Entrada de Notas 🎓
@@ -328,6 +354,8 @@ Este programa solicita ao usuário que digite uma lista de notas separadas por e
 - Módulo `statistics` e `sys`
 - Saída formatada com f-strings
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 14: Calculadora de Médias 2.0 📚
@@ -347,6 +375,8 @@ Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A l�
 - Condicionais `if/elif/else`
 - Tratamento de exceções com `try/except`
 - `input()` e `print()` com f-strings
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -370,6 +400,8 @@ Este desafio simula uma Pokédex interativa que consulta informações de Pokém
 - F-strings para exibição formatada
 - Estruturas de controle: `if`, `while`, `break`, listas por compreensão
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 16: Formatação de Frases com List Comprehension 🧠📝
@@ -390,6 +422,8 @@ Esse desafio foi excelente para treinar **list comprehension** em dois níveis: 
 - List comprehension (com aninhamento)  
 - Métodos de string: `.replace()`, `.split()`, `.capitalize()`, `.join()`  
 - Impressão com `print()`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -414,6 +448,8 @@ Ambas as funções foram implementadas de forma clara e concisa, com uso de come
 - Operadores aritméticos  
 - Funções (`def`)  
 - `print()` para exibição dos resultados
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -442,6 +478,8 @@ Além disso, o programa:
 - Função `max()` com argumento `key`
 - `print()` para exibição dos resultados
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 19: Manipulação de Lista com Heróis do Universo Sonic 🌀🦔
@@ -463,6 +501,8 @@ Este desafio propõe uma série de operações sobre uma lista de heróis do uni
 - Compreensão de listas
 - Funções personalizadas
 - `print()` com f-strings e `join()`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -487,6 +527,8 @@ Três personagens foram instanciados com dados diferentes e, em seguida, passara
 - F-strings para exibição  
 - Simulação de interações típicas de jogos (dano, evolução, ficha)
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 21: Cadastro de Livros com Classe e Método 📚
@@ -506,6 +548,8 @@ Este desafio introduz a construção de uma classe chamada `Livro`, com atributo
 - Métodos com `self`  
 - Listas e `enumerate()`  
 - Impressão formatada com `f-strings`
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -529,6 +573,8 @@ Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as inform
 - Listas dinâmicas  
 - Impressão formatada com f-strings
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 23: Controle Bancário com Encapsulamento 🏦💰
@@ -549,6 +595,8 @@ Este desafio simula o funcionamento de uma conta bancária usando os princípios
 - Métodos de classe com `self`  
 - Condicionais `if/else`  
 - Impressão com f-strings
+
+[🔝 Voltar ao topo](#topo)
 
 ---
 
@@ -573,6 +621,8 @@ A simulação representa um pequeno combate com ataques, recebimento de dano e e
 - Método especial `__str__()`
 - Impressão formatada com `f-strings`
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 25: Sistema de Cadastro de Funcionários com Abstração 🧑‍💼📋
@@ -595,6 +645,8 @@ O objetivo do programa é permitir o cadastro de funcionários, aplicar regras d
 - Listas de objetos  
 - Impressão com f-strings
 
+[🔝 Voltar ao topo](#topo)
+
 ---
 
 ### Desafio 26: Zoo dos Animais Sonoros 🐶🐱🐮
@@ -616,3 +668,5 @@ As classes `Cachorro`, `Gato` e `Vaca` foram criadas como exemplos concretos, he
 - Polimorfismo através de métodos personalizados  
 - Listas de objetos  
 - Impressão formatada com `f-strings`
+
+[🔝 Voltar ao topo](#topo)
