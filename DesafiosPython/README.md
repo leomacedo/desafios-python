@@ -33,6 +33,38 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 25  | 25_sistema_funcionarios.py       | Cadastro de funcionários com classe abstrata, bônus e folha de pagamento | 31/05/2025 |
 | 26  | 26_zoo_animais_sonoros.py        | Simulação de zoológico com abstração, herança e sons dos animais         | 31/05/2025 |
 
+## Índice de Desafios
+
+Clique para ir direto ao desafio desejado:
+
+- [Desafio 1: Agenda de Compromissos](#desafio-1-agenda-de-compromissos-️)
+- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas-️)
+- [Desafio 3: Lista de Tarefas com Prioridades](#desafio-3-lista-de-tarefas-com-prioridades-)
+- [Desafio 4: Calculadora de Médias com Listas](#desafio-4-calculadora-de-médias-com-listas-)
+- [Desafio 5: Contagem de Nomes e Nome Mais Frequente](#desafio-5-contagem-de-nomes-e-nome-mais-frequente-)
+- [Desafio 6: Contagem de Respostas com Laço for](#desafio-6-contagem-de-respostas-com-laço-for-)
+- [Desafio 7: Contagem de Respostas com Métodos Avançados](#desafio-7-contagem-de-respostas-com-métodos-avançados-)
+- [Desafio 8: Super Vendedor do Mês](#desafio-8-super-vendedor-do-mês-)
+- [Desafio 9: Lista de Nomes Únicos em Ordem Alfabética](#desafio-9-lista-de-nomes-únicos-em-ordem-alfabética-)
+- [Desafio 10: Lista de Presença Inteligente](#desafio-10-lista-de-presença-inteligente-)
+- [Desafio 11 – Sistema de Inventário de RPG](#desafio-11--sistema-de-inventário-de-rpg-)
+- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação-)
+- [Desafio 13: Entrada de Notas](#desafio-13-entrada-de-notas-)
+- [Desafio 14: Calculadora de Médias 2.0](#desafio-14-calculadora-de-médias-20-)
+- [Desafio 15: Consulta de Pokémon via API](#desafio-15-consulta-de-pokémon-via-api-)
+- [Desafio 16: Formatação de Frases com List Comprehension](#desafio-16-formatação-de-frases-com-list-comprehension-)
+- [Desafio 17: List Comprehension com Funções para Pares e Ímpares](#desafio-17-list-comprehension-com-funções-para-pares-e-ímpares-)
+- [Desafio 18: Corrida do Sonic](#desafio-18-corrida-do-sonic-)
+- [Desafio 19: Manipulação de Lista com Heróis do Universo Sonic](#desafio-19-manipulação-de-lista-com-heróis-do-universo-sonic-)
+- [Desafio 20: Personagens com Classes e Métodos](#desafio-20-personagens-com-classes-e-métodos-)
+- [Desafio 21: Cadastro de Livros com Classe e Método](#desafio-21-cadastro-de-livros-com-classe-e-método-)
+- [Desafio 22: Boletim Escolar com Classe `Aluno`](#desafio-22-boletim-escolar-com-classe-aluno-)
+- [Desafio 23: Controle Bancário com Encapsulamento](#desafio-23-controle-bancário-com-encapsulamento-)
+- [Desafio 24: Herança em Personagens de RPG](#desafio-24-herança-em-personagens-de-rpg-)
+- [Desafio 25: Sistema de Cadastro de Funcionários com Abstração](#desafio-25-sistema-de-cadastro-de-funcionários-com-abstração-)
+- [Desafio 26: Zoo dos Animais Sonoros](#desafio-26-zoo-dos-animais-sonoros-)
+
+
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
 
