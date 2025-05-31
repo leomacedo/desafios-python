@@ -507,7 +507,7 @@ Este desafio propõe uma série de operações sobre uma lista de heróis do uni
 ---
 
 ### Desafio 20: Personagens com Classes e Métodos
-
+🧙‍♂️🗡️
 
 Este desafio introduz o conceito de **Programação Orientada a Objetos (POO)** com foco na criação de personagens para um jogo estilo RPG. A classe `Personagem` foi criada com atributos e métodos personalizados, como `exibir_ficha()`, `receber_dano()` e `subir_nivel()`.
 
@@ -601,6 +601,7 @@ Este desafio simula o funcionamento de uma conta bancária usando os princípios
 ---
 
 ### Desafio 24: Herança em Personagens de RPG
+🧙‍♂️🗡️
 
 
 Este desafio utiliza o conceito de **herança em programação orientada a objetos** para criar uma hierarquia entre classes. Foi implementada uma classe base `Personagem`, com atributos e métodos comuns, e três classes derivadas (`Guerreiro`, `Mago` e `Monstro`) que herdam suas características e têm métodos próprios.
