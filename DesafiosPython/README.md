@@ -31,6 +31,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 23  | 23_conta_bancaria.py             | Simulação de conta bancária com encapsulamento e métodos seguros         | 29/05/2025 |
 | 24  | 24_heranca_rpg.py                | Simulação de personagens em RPG com herança e métodos personalizados     | 30/05/2025 |
 | 25  | 25_sistema_funcionarios.py       | Cadastro de funcionários com classe abstrata, bônus e folha de pagamento | 31/05/2025 |
+| 26  | 26_zoo_animais_sonoros.py        | Simulação de zoológico com abstração, herança e sons dos animais         | 31/05/2025 |
 
 
 Este repositório contém uma série de desafios de programação em Python que resolvi para aprimorar minhas habilidades. Abaixo você pode conferir os detalhes dos desafios que fiz.
@@ -563,3 +564,23 @@ O objetivo do programa é permitir o cadastro de funcionários, aplicar regras d
 - Impressão com f-strings
 
 ---
+
+### Desafio 26: Zoo dos Animais Sonoros 🐶🐱🐮
+
+Neste desafio, foi desenvolvido um sistema que representa um zoológico onde cada animal possui comportamentos distintos. A classe abstrata `Animal` serve como base para diferentes espécies, e define métodos obrigatórios como `fazer_som()` e `interagir()`, que cada subclasse implementa à sua maneira.
+
+As classes `Cachorro`, `Gato` e `Vaca` foram criadas como exemplos concretos, herdando da classe base e personalizando os comportamentos de som e interação.
+
+**Principais características:**
+- Classe abstrata `Animal` com métodos obrigatórios.
+- Subclasses que implementam seus próprios sons e formas de interação.
+- Uso do método especial `__str__()` para exibição amigável dos objetos.
+- Demonstração de **abstração**, **herança** e **polimorfismo** no comportamento dos objetos.
+
+**Tecnologias/Conceitos usados:**
+- Programação Orientada a Objetos (POO)  
+- Classe abstrata com `abc.ABC` e `@abstractmethod`  
+- Herança com `super()`  
+- Polimorfismo através de métodos personalizados  
+- Listas de objetos  
+- Impressão formatada com `f-strings`
