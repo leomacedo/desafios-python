@@ -33,6 +33,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 25  | 25_sistema_funcionarios.py       | Cadastro de funcionários com classe abstrata, bônus e folha de pagamento | 31/05/2025 |
 | 26  | 26_zoo_animais_sonoros.py        | Simulação de zoológico com abstração, herança e sons dos animais         | 31/05/2025 |
 | 27  | 27_batalha_rpg.py                | Simulação de batalha RPG com classes, herança e polimorfismo             | 02/06/2025 |
+| 28  | 28_cofre_secreto_env.py          | Cofre de segredos com variáveis de ambiente e proteção com .env          | 03/06/2025 |
 
 
 ## Índice de Desafios
@@ -68,6 +69,7 @@ Clique para ir direto ao desafio desejado:
 - [Desafio 25: Sistema de Cadastro de Funcionários com Abstração](#desafio-25-sistema-de-cadastro-de-funcionários-com-abstração-)
 - [Desafio 26: Zoo dos Animais Sonoros](#desafio-26-zoo-dos-animais-sonoros-)
 - [Desafio 27: Batalha de Personagens RPG com POO](#desafio-27-batalha-de-personagens-rpg-com-poo)
+- [Desafio 28: Cofre de Segredos com Variáveis de Ambiente](#desafio-28-cofre-de-segredos-com-variáveis-de-ambiente-)
 
 
 
@@ -678,6 +680,7 @@ As classes `Cachorro`, `Gato` e `Vaca` foram criadas como exemplos concretos, he
 ---
 
 ### Desafio 27: Batalha de Personagens RPG com POO
+
 ⚔️🧙‍♂️🏹
 
 Este desafio foi a conclusão do módulo de Programação Orientada a Objetos, unindo todos os pilares aprendidos: **herança**, **polimorfismo**, **métodos abstratos**, e até um toque de estilo visual com emojis e delays dramáticos.
@@ -700,5 +703,28 @@ Foi implementado um sistema de batalha entre personagens com diferentes estilos 
 - Pausas com `time.sleep()`  
 - Método especial `__str__()` personalizado  
 - Função de combate com controle de rodada
+
+[🔝 Voltar ao topo](#topo)
+
+---
+
+### Desafio 28: Cofre de Segredos com Variáveis de Ambiente 🔐🧠
+
+Neste desafio, o objetivo foi simular um sistema de acesso a informações confidenciais, utilizando boas práticas para proteger dados sensíveis através de variáveis de ambiente. Esse tipo de prática é essencial no desenvolvimento de aplicações que lidam com chaves de API, senhas ou tokens de autenticação.
+
+O código lê uma variável secreta armazenada em um arquivo `.env`, carrega esse valor usando a biblioteca `python-dotenv` e então compara com uma senha esperada. Caso a chave esteja correta, o programa libera uma mensagem especial de reforço emocional — caso contrário, nega o acesso.
+
+**Principais características:**
+- Criação e leitura de variáveis de ambiente com `load_dotenv()` e `os.getenv()`.
+- Uso do arquivo `.env` para proteger dados sensíveis.
+- Proteção com `.gitignore` para evitar o envio do `.env` ao GitHub.
+- Mensagens personalizadas e reforço positivo como conteúdo do "cofre".
+
+**Tecnologias/Conceitos usados:**
+- Leitura de arquivos `.env`  
+- Biblioteca `python-dotenv`  
+- `os.getenv()` para acesso seguro  
+- Arquivo `.gitignore` para segurança de repositório  
+- Condicionais e `print()` com f-strings  
 
 [🔝 Voltar ao topo](#topo)
