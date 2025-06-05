@@ -34,6 +34,8 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 26  | 26_zoo_animais_sonoros.py        | Simulação de zoológico com abstração, herança e sons dos animais         | 31/05/2025 |
 | 27  | 27_batalha_rpg.py                | Simulação de batalha RPG com classes, herança e polimorfismo             | 02/06/2025 |
 | 28  | 28_cofre_secreto_env.py          | Cofre de segredos com variáveis de ambiente e proteção com .env          | 03/06/2025 |
+| 29  | 29_requisicao_api_post_get.py    | Requisições GET e POST com headers, body, params e API pública           | 05/06/2025 |
+
 
 
 ## Índice de Desafios
@@ -70,6 +72,8 @@ Clique para ir direto ao desafio desejado:
 - [Desafio 26: Zoo dos Animais Sonoros](#desafio-26-zoo-dos-animais-sonoros-)
 - [Desafio 27: Batalha de Personagens RPG com POO](#desafio-27-batalha-de-personagens-rpg-com-poo)
 - [Desafio 28: Cofre de Segredos com Variáveis de Ambiente](#desafio-28-cofre-de-segredos-com-variáveis-de-ambiente-)
+- [Desafio 29: Requisições GET e POST com API Pública](#desafio-29-requisições-get-e-post-com-api-pública)
+
 
 
 
@@ -726,5 +730,31 @@ O código lê uma variável secreta armazenada em um arquivo `.env`, carrega ess
 - `os.getenv()` para acesso seguro  
 - Arquivo `.gitignore` para segurança de repositório  
 - Condicionais e `print()` com f-strings  
+
+[🔝 Voltar ao topo](#topo)
+
+---
+
+### Desafio 29: Requisições GET e POST com API Pública
+🛰️
+
+Neste desafio, simulei duas requisições reais usando a biblioteca `requests` com a API pública de testes [JSONPlaceholder](https://jsonplaceholder.typicode.com/).
+
+- Na primeira parte, realizei um `POST` com `headers` e `body` para criar um novo post simulado.
+- Na segunda parte, fiz um `GET` com parâmetros de consulta (`params`) para buscar todos os posts de um usuário específico.
+
+Esse exercício foi essencial para entender o funcionamento básico das chamadas HTTP com Python, além de consolidar o uso da estrutura padrão de APIs RESTful.
+
+**Principais Características:**
+- Diferença entre `params`, `json`, `headers`
+- Compreensão da ausência de body em requisições `GET`
+- Interpretação do código de status HTTP (ex: 200, 201)
+- Simulação realista de criação de post em ambiente seguro
+
+**Tecnologias/Conceitos usados:**
+- Biblioteca `requests`
+- Requisições `GET` e `POST`
+- Uso de `headers`, `body` e `params`
+- Leitura de `status_code` e resposta JSON
 
 [🔝 Voltar ao topo](#topo)
