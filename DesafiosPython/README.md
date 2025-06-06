@@ -35,6 +35,7 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 | 27  | 27_batalha_rpg.py                | Simulação de batalha RPG com classes, herança e polimorfismo             | 02/06/2025 |
 | 28  | 28_cofre_secreto_env.py          | Cofre de segredos com variáveis de ambiente e proteção com .env          | 03/06/2025 |
 | 29  | 29_requisicao_api_post_get.py    | Requisições GET e POST com headers, body, params e API pública           | 05/06/2025 |
+| 30  | 30_clima_aracaju_api.py          | Consulta de clima atual via API pública com requisição GET               | 06/06/2025 |
 
 
 
@@ -44,35 +45,36 @@ Repositório com os desafios que venho resolvendo no meu processo de aprendizado
 
 Clique para ir direto ao desafio desejado:
 
-- [Desafio 1: Agenda de Compromissos](#desafio-1-agenda-de-compromissos-️)
-- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas-)
-- [Desafio 3: Lista de Tarefas com Prioridades](#desafio-3-lista-de-tarefas-com-prioridades-)
-- [Desafio 4: Calculadora de Médias com Listas](#desafio-4-calculadora-de-médias-com-listas-)
-- [Desafio 5: Contagem de Nomes e Nome Mais Frequente](#desafio-5-contagem-de-nomes-e-nome-mais-frequente-)
-- [Desafio 6: Contagem de Respostas com Laço for](#desafio-6-contagem-de-respostas-com-laço-for-)
-- [Desafio 7: Contagem de Respostas com Métodos Avançados](#desafio-7-contagem-de-respostas-com-métodos-avançados-)
-- [Desafio 8: Super Vendedor do Mês](#desafio-8-super-vendedor-do-mês-)
-- [Desafio 9: Lista de Nomes Únicos em Ordem Alfabética](#desafio-9-lista-de-nomes-únicos-em-ordem-alfabética-)
-- [Desafio 10: Lista de Presença Inteligente](#desafio-10-lista-de-presença-inteligente-)
-- [Desafio 11: Sistema de Inventário de RPG](#desafio-11-sistema-de-inventário-de-rpg-)
-- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação-)
-- [Desafio 13: Entrada de Notas](#desafio-13-entrada-de-notas-)
-- [Desafio 14: Calculadora de Médias 2.0](#desafio-14-calculadora-de-médias-20-)
-- [Desafio 15: Consulta de Pokémon via API](#desafio-15-consulta-de-pokémon-via-api-)
-- [Desafio 16: Formatação de Frases com List Comprehension](#desafio-16-formatação-de-frases-com-list-comprehension-)
-- [Desafio 17: List Comprehension com Funções para Pares e Ímpares](#desafio-17-list-comprehension-com-funções-para-pares-e-ímpares-)
-- [Desafio 18: Corrida do Sonic](#desafio-18-corrida-do-sonic-)
-- [Desafio 19: Manipulação de Lista com Heróis do Universo Sonic](#desafio-19-manipulação-de-lista-com-heróis-do-universo-sonic-)
+- [Desafio 1: Agenda de Compromissos](#desafio-1-agenda-de-compromissos)
+- [Desafio 2: Mensagens Personalizadas](#desafio-2-mensagens-personalizadas)
+- [Desafio 3: Lista de Tarefas com Prioridades](#desafio-3-lista-de-tarefas-com-prioridades)
+- [Desafio 4: Calculadora de Médias com Listas](#desafio-4-calculadora-de-médias-com-listas)
+- [Desafio 5: Contagem de Nomes e Nome Mais Frequente](#desafio-5-contagem-de-nomes-e-nome-mais-frequente)
+- [Desafio 6: Contagem de Respostas com Laço for](#desafio-6-contagem-de-respostas-com-laço-for)
+- [Desafio 7: Contagem de Respostas com Métodos Avançados](#desafio-7-contagem-de-respostas-com-métodos-avançados)
+- [Desafio 8: Super Vendedor do Mês](#desafio-8-super-vendedor-do-mês)
+- [Desafio 9: Lista de Nomes Únicos em Ordem Alfabética](#desafio-9-lista-de-nomes-únicos-em-ordem-alfabética)
+- [Desafio 10: Lista de Presença Inteligente](#desafio-10-lista-de-presença-inteligente)
+- [Desafio 11: Sistema de Inventário de RPG](#desafio-11-sistema-de-inventário-de-rpg)
+- [Desafio 12: Estatísticas Básicas com Validação](#desafio-12-estatísticas-básicas-com-validação)
+- [Desafio 13: Entrada de Notas](#desafio-13-entrada-de-notas)
+- [Desafio 14: Calculadora de Médias 2.0](#desafio-14-calculadora-de-médias-20)
+- [Desafio 15: Consulta de Pokémon via API](#desafio-15-consulta-de-pokémon-via-api)
+- [Desafio 16: Formatação de Frases com List Comprehension](#desafio-16-formatação-de-frases-com-list-comprehension)
+- [Desafio 17: List Comprehension com Funções para Pares e Ímpares](#desafio-17-list-comprehension-com-funções-para-pares-e-ímpares)
+- [Desafio 18: Corrida do Sonic](#desafio-18-corrida-do-sonic)
+- [Desafio 19: Manipulação de Lista com Heróis do Universo Sonic](#desafio-19-manipulação-de-lista-com-heróis-do-universo-sonic)
 - [Desafio 20: Personagens com Classes e Métodos](#desafio-20-personagens-com-classes-e-métodos)
-- [Desafio 21: Cadastro de Livros com Classe e Método](#desafio-21-cadastro-de-livros-com-classe-e-método-)
-- [Desafio 22: Boletim Escolar com Classe `Aluno`](#desafio-22-boletim-escolar-com-classe-aluno-)
-- [Desafio 23: Controle Bancário com Encapsulamento](#desafio-23-controle-bancário-com-encapsulamento-)
+- [Desafio 21: Cadastro de Livros com Classe e Método](#desafio-21-cadastro-de-livros-com-classe-e-método)
+- [Desafio 22: Boletim Escolar com Classe `Aluno`](#desafio-22-boletim-escolar-com-classe-aluno)
+- [Desafio 23: Controle Bancário com Encapsulamento](#desafio-23-controle-bancário-com-encapsulamento)
 - [Desafio 24: Herança em Personagens de RPG](#desafio-24-herança-em-personagens-de-rpg)
-- [Desafio 25: Sistema de Cadastro de Funcionários com Abstração](#desafio-25-sistema-de-cadastro-de-funcionários-com-abstração-)
-- [Desafio 26: Zoo dos Animais Sonoros](#desafio-26-zoo-dos-animais-sonoros-)
+- [Desafio 25: Sistema de Cadastro de Funcionários com Abstração](#desafio-25-sistema-de-cadastro-de-funcionários-com-abstração)
+- [Desafio 26: Zoo dos Animais Sonoros](#desafio-26-zoo-dos-animais-sonoros)
 - [Desafio 27: Batalha de Personagens RPG com POO](#desafio-27-batalha-de-personagens-rpg-com-poo)
-- [Desafio 28: Cofre de Segredos com Variáveis de Ambiente](#desafio-28-cofre-de-segredos-com-variáveis-de-ambiente-)
+- [Desafio 28: Cofre de Segredos com Variáveis de Ambiente](#desafio-28-cofre-de-segredos-com-variáveis-de-ambiente)
 - [Desafio 29: Requisições GET e POST com API Pública](#desafio-29-requisições-get-e-post-com-api-pública)
+- [Desafio 30: Consulta de Clima com API Open-Meteo](#desafio-30-consulta-de-clima-com-api-open-meteo)
 
 
 
@@ -81,7 +83,8 @@ Este repositório contém uma série de desafios de programação em Python que 
 
 ## Desafios
 
-### Desafio 1: Agenda de Compromissos 🗓️
+### Desafio 1: Agenda de Compromissos
+📅
 
 Este programa solicita ao usuário que insira três compromissos para o dia e os armazena em uma lista. Depois, exibe esses compromissos com uma mensagem numerada e estilizada. Ao final, ele deseja ao usuário um dia produtivo.
 
@@ -100,7 +103,8 @@ Este programa solicita ao usuário que insira três compromissos para o dia e os
 
 ---
 
-### Desafio 2: Mensagens Personalizadas 🎉
+### Desafio 2: Mensagens Personalizadas
+🎉
 
 Neste programa, o usuário pode adicionar um número específico de nomes e, para cada nome, uma mensagem personalizada é gerada aleatoriamente a partir de uma lista de expressões.
 
@@ -119,7 +123,8 @@ Neste programa, o usuário pode adicionar um número específico de nomes e, par
 
 ---
 
-### Desafio 3: Lista de Tarefas com Prioridades 💼
+### Desafio 3: Lista de Tarefas com Prioridades
+💼
 
 Este programa permite ao usuário cadastrar uma quantidade específica de tarefas, definindo para cada uma a prioridade (Alta, Média ou Baixa). As tarefas são então organizadas em blocos separados por prioridade e exibidas de forma clara e categorizada.
 
@@ -138,7 +143,8 @@ Este programa permite ao usuário cadastrar uma quantidade específica de tarefa
 
 ---
 
-### Desafio 4: Calculadora de Médias com Listas 🧪
+### Desafio 4: Calculadora de Médias com Listas
+🧪
 
 Neste programa, o usuário pode adicionar quantas notas quiser e, ao final, o programa calcula a média dessas notas. Dependendo da média, ele retorna uma mensagem de aprovação, recuperação ou reprovação.
 
@@ -157,7 +163,8 @@ Neste programa, o usuário pode adicionar quantas notas quiser e, ao final, o pr
 
 ---
 
-### Desafio 5: Contagem de Nomes e Nome Mais Frequente 📊
+### Desafio 5: Contagem de Nomes e Nome Mais Frequente
+📊
 
 Neste programa, a função conta quantas vezes um nome aparece em uma lista e retorna o nome mais frequente. Utiliza loops e variáveis globais para contar e exibir o nome mais repetido.
 
@@ -176,7 +183,8 @@ Neste programa, a função conta quantas vezes um nome aparece em uma lista e re
 
 ---
 
-### Desafio 6: Contagem de Respostas com Laço for 🔄
+### Desafio 6: Contagem de Respostas com Laço for
+🔄
 
 Neste programa, o objetivo é contar quantas vezes cada aluno respondeu a uma pesquisa e determinar qual aluno respondeu mais vezes. Utiliza-se um laço `for` e um dicionário para armazenar as respostas.
 
@@ -196,7 +204,8 @@ Neste programa, o objetivo é contar quantas vezes cada aluno respondeu a uma pe
 
 ---
 
-### Desafio 7: Contagem de Respostas com Métodos Avançados 🔧
+### Desafio 7: Contagem de Respostas com Métodos Avançados
+🔧
 
 Neste desafio, a solução é aprimorada com o uso do método `.get()` de dicionários e a função `max()` para encontrar o aluno que mais respondeu de forma mais eficiente.
 
@@ -215,7 +224,8 @@ Neste desafio, a solução é aprimorada com o uso do método `.get()` de dicion
 
 ---
 
-### Desafio 8: Super Vendedor do Mês 🏆
+### Desafio 8: Super Vendedor do Mês
+🏆
 
 Neste desafio, trabalhamos com um dicionário que armazena o número de vendas realizadas por vendedores. O objetivo principal era identificar quem vendeu mais, e como tarefa extra, analisar o que ocorre em caso de empate.
 
@@ -239,7 +249,8 @@ Ao usar `max(vendas, key=vendas.get)`, o Python retorna apenas o primeiro vended
 
 ---
 
-### Desafio 9: Lista de Nomes Únicos em Ordem Alfabética 🔤
+### Desafio 9: Lista de Nomes Únicos em Ordem Alfabética
+🔤
 
 Neste desafio, o foco foi trabalhar com listas que possuem elementos duplicados. A missão era criar uma função que removesse os nomes repetidos e retornasse o resultado em ordem alfabética.
 
@@ -262,7 +273,8 @@ A função transforma a lista original em um conjunto, eliminando nomes repetido
 
 ---
 
-### Desafio 10: Lista de Presença Inteligente 🧠
+### Desafio 10: Lista de Presença Inteligente
+🧠
 
 
 Neste desafio, simulamos a organização de um evento com duas listas:
@@ -289,7 +301,8 @@ O objetivo foi criar um programa que:
 
 ---
 
-### Desafio 11: Sistema de Inventário de RPG 🧙📦
+### Desafio 11: Sistema de Inventário de RPG
+🧙📦
 
 Descrição:
 Este desafio simula um sistema de inventário para um jogo de RPG. O programa armazena os itens coletados por um jogador, calcula quantidades, preços e fornece uma listagem completa do inventário de forma clara e automatizada.
@@ -318,7 +331,8 @@ Esse sistema é bem parecido com a lógica de jogos como Diablo ou Zelda, onde o
 
 ---
 
-### Desafio 12: Estatísticas Básicas com Validação 📈
+### Desafio 12: Estatísticas Básicas com Validação
+📈
 
 
 Descrição:
@@ -343,7 +357,8 @@ Este programa solicita ao usuário uma lista de números separados por espaço e
 
 ---
 
-### Desafio 13: Entrada de Notas 🎓
+### Desafio 13: Entrada de Notas
+🎓
 
 
 Este programa solicita ao usuário que digite uma lista de notas separadas por espaço. Ele valida cada entrada, descartando valores fora do intervalo de 0 a 10 e também entradas não numéricas. Se houver pelo menos uma nota válida, ele apresenta estatísticas como média, maior e menor nota.
@@ -367,7 +382,8 @@ Este programa solicita ao usuário que digite uma lista de notas separadas por e
 
 ---
 
-### Desafio 14: Calculadora de Médias 2.0 📚
+### Desafio 14: Calculadora de Médias 2.0
+📚
 
 
 Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A lógica foi mantida, mas o código foi totalmente reestruturado para aplicar boas práticas como: organização em funções, validação robusta de entrada, separação de responsabilidades e mensagens mais amigáveis.
@@ -389,7 +405,8 @@ Esta é uma versão melhorada da antiga calculadora de médias (Desafio 4). A l�
 
 ---
 
-### Desafio 15: Consulta de Pokémon via API 🐾
+### Desafio 15: Consulta de Pokémon via API
+🐾
 
 
 Este desafio simula uma Pokédex interativa que consulta informações de Pokémon usando a PokéAPI. O usuário digita o nome de um Pokémon e recebe dados como altura, peso, tipos (com emojis!) e nome formatado. O programa permite várias consultas seguidas e limpa a tela para uma melhor apresentação.
@@ -413,7 +430,8 @@ Este desafio simula uma Pokédex interativa que consulta informações de Pokém
 
 ---
 
-### Desafio 16: Formatação de Frases com List Comprehension 🧠📝
+### Desafio 16: Formatação de Frases com List Comprehension
+🧠📝
 
 
 O objetivo deste desafio era pegar uma lista de frases com palavras separadas por hífens (`-`) e transformá-las em frases legíveis, com as palavras capitalizadas e separadas por espaço.
@@ -436,7 +454,8 @@ Esse desafio foi excelente para treinar **list comprehension** em dois níveis: 
 
 ---
 
-### Desafio 17: List Comprehension com Funções para Pares e Ímpares 🔍
+### Desafio 17: List Comprehension com Funções para Pares e Ímpares
+🔍
 
 Este desafio apresenta duas funções utilizando **list comprehension** para manipular uma lista de números de formas diferentes:
 
@@ -462,7 +481,8 @@ Ambas as funções foram implementadas de forma clara e concisa, com uso de come
 
 ---
 
-### Desafio 18: Corrida do Sonic 🏁
+### Desafio 18: Corrida do Sonic
+🦔🏁
 
 
 Este desafio simula uma corrida entre três personagens clássicos: Sonic, Tails e Knuckles. Cada um possui uma velocidade média diferente e, com base nisso, o programa calcula a distância percorrida por cada um em 3 minutos.
@@ -491,7 +511,8 @@ Além disso, o programa:
 
 ---
 
-### Desafio 19: Manipulação de Lista com Heróis do Universo Sonic 🌀🦔
+### Desafio 19: Manipulação de Lista com Heróis do Universo Sonic
+🌀🦔
 
 Este desafio propõe uma série de operações sobre uma lista de heróis do universo Sonic, com o objetivo de treinar comandos como indexação negativa, fatiamento (`slice`), remoção de elementos com `del`, e compreensão de listas.
 
@@ -540,7 +561,8 @@ Três personagens foram instanciados com dados diferentes e, em seguida, passara
 
 ---
 
-### Desafio 21: Cadastro de Livros com Classe e Método 📚
+### Desafio 21: Cadastro de Livros com Classe e Método
+📚
 
 
 Este desafio introduz a construção de uma classe chamada `Livro`, com atributos como título, autor, ano e gênero. Cada instância representa um livro diferente. O método `exibir_dados()` foi criado para exibir as informações de cada livro de forma formatada. Os livros foram armazenados em uma lista e exibidos em ordem, com numeração dinâmica usando `enumerate`.
@@ -562,7 +584,8 @@ Este desafio introduz a construção de uma classe chamada `Livro`, com atributo
 
 ---
 
-### Desafio 22: Boletim Escolar com Classe `Aluno` 📝🎓
+### Desafio 22: Boletim Escolar com Classe `Aluno`
+📝🎓
 
 
 Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as informações básicas de um estudante: nome, matrícula e lista de notas. Foram implementados métodos para adicionar novas notas dinamicamente, calcular a média utilizando a biblioteca `statistics` e exibir todos os dados do aluno com uma formatação clara e amigável.
@@ -586,7 +609,8 @@ Neste desafio, o objetivo foi criar uma classe `Aluno` que gerenciasse as inform
 
 ---
 
-### Desafio 23: Controle Bancário com Encapsulamento 🏦💰
+### Desafio 23: Controle Bancário com Encapsulamento
+🏦💰
 
 
 Este desafio simula o funcionamento de uma conta bancária usando os princípios da Programação Orientada a Objetos com foco em **encapsulamento**. A classe `ContaBancaria` protege o saldo da conta usando atributos privados e fornece métodos para depositar, sacar, consultar o saldo e exibir os dados da conta de maneira segura.
@@ -635,7 +659,8 @@ A simulação representa um pequeno combate com ataques, recebimento de dano e e
 
 ---
 
-### Desafio 25: Sistema de Cadastro de Funcionários com Abstração 🧑‍💼📋
+### Desafio 25: Sistema de Cadastro de Funcionários com Abstração
+🧑‍💼📋
 
 Este desafio explora o conceito de **abstração** em Programação Orientada a Objetos com o uso do módulo `abc` do Python. Foi criada uma classe base abstrata `Funcionario`, que serve como molde para diferentes tipos de funcionários, e duas classes concretas (`Gerente` e `Desenvolvedor`) que implementam suas próprias regras de bônus.
 
@@ -659,7 +684,8 @@ O objetivo do programa é permitir o cadastro de funcionários, aplicar regras d
 
 ---
 
-### Desafio 26: Zoo dos Animais Sonoros 🐶🐱🐮
+### Desafio 26: Zoo dos Animais Sonoros
+🐶🐱🐮
 
 Neste desafio, foi desenvolvido um sistema que representa um zoológico onde cada animal possui comportamentos distintos. A classe abstrata `Animal` serve como base para diferentes espécies, e define métodos obrigatórios como `fazer_som()` e `interagir()`, que cada subclasse implementa à sua maneira.
 
@@ -684,7 +710,6 @@ As classes `Cachorro`, `Gato` e `Vaca` foram criadas como exemplos concretos, he
 ---
 
 ### Desafio 27: Batalha de Personagens RPG com POO
-
 ⚔️🧙‍♂️🏹
 
 Este desafio foi a conclusão do módulo de Programação Orientada a Objetos, unindo todos os pilares aprendidos: **herança**, **polimorfismo**, **métodos abstratos**, e até um toque de estilo visual com emojis e delays dramáticos.
@@ -712,7 +737,8 @@ Foi implementado um sistema de batalha entre personagens com diferentes estilos 
 
 ---
 
-### Desafio 28: Cofre de Segredos com Variáveis de Ambiente 🔐🧠
+### Desafio 28: Cofre de Segredos com Variáveis de Ambiente
+🔐🧠
 
 Neste desafio, o objetivo foi simular um sistema de acesso a informações confidenciais, utilizando boas práticas para proteger dados sensíveis através de variáveis de ambiente. Esse tipo de prática é essencial no desenvolvimento de aplicações que lidam com chaves de API, senhas ou tokens de autenticação.
 
@@ -758,3 +784,28 @@ Esse exercício foi essencial para entender o funcionamento básico das chamadas
 - Leitura de `status_code` e resposta JSON
 
 [🔝 Voltar ao topo](#topo)
+
+---
+
+### Desafio 30: Consulta de Clima com API Open-Meteo
+🌤️🌎
+
+Este desafio introduz o uso de **requisições HTTP GET** para acessar dados reais de uma API pública de clima. O programa consulta a **API Open-Meteo** usando a localização de **Aracaju-SE** e retorna informações como temperatura atual, velocidade do vento e horário da última atualização.
+
+Esse exercício serve como introdução prática ao consumo de APIs públicas, interpretação de status HTTP e extração de informações úteis do formato JSON retornado pela requisição.
+
+**Principais características:**
+- Envio de requisição GET com `requests.get()`
+- Interpretação do `status_code` para validação da resposta
+- Leitura e extração de campos específicos do JSON com `.get()`
+- Exibição de temperatura, vento e hora de atualização
+
+**Tecnologias/Conceitos usados:**
+- Biblioteca `requests`  
+- Requisições HTTP GET  
+- Dicionários aninhados com `.get()`  
+- Status HTTP (ex: 200 OK)  
+- Impressão formatada com f-strings e emojis
+
+[🔝 Voltar ao topo](#topo)
+
