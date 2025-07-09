@@ -1,7 +1,7 @@
 import random
 import os
 
-opcoes = {1: "Pedra", 2: "Papel", 3: "Tesoura"}
+opcoes = {1: "✊ Pedra", 2: "✋ Papel", 3: "✌️  Tesoura"}
 placar_jogador = 0
 placar_computador = 0
 
@@ -15,10 +15,10 @@ def exibir_placar(tipo):
 while True:
     limpar_tela()    
     print("\nEscolha sua jogada:")
-    print("1 - Pedra")
-    print("2 - Papel")
-    print("3 - Tesoura")
-    print("9 - Sair do jogo")
+    print("1 - ✊ Pedra")
+    print("2 - ✋ Papel")
+    print("3 - ✌️  Tesoura")
+    print("9 - ❌ Sair do jogo")
 
     exibir_placar("parcial")
 
