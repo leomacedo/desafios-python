@@ -7,13 +7,14 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
 
 ## 🎯 Funcionalidades
 
+- Solicita **nome personalizado do jogador** no início da sessão.
 - Menu interativo com opções numéricas:
   - `1` = Pedra
   - `2` = Papel
   - `3` = Tesoura
   - `9` = Sair do jogo
 - O computador realiza uma jogada aleatória.
-- Sistema de **placar parcial e final** atualizado a cada rodada.
+- Sistema de **placar parcial e final** atualizado a cada rodada, exibindo o nome do jogador.
 - **Limpeza automática da tela** entre rodadas (somente em terminais reais).
 - Interface leve e com emojis para deixar a experiência mais divertida.
 

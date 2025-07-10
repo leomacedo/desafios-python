@@ -8,9 +8,11 @@ placar_computador = 0
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+nome_jogador = input("Digite seu nome para começar: ")
+
 def exibir_placar(tipo):
         print(f"\nPlacar {tipo}:")
-        print(f"Jogador: {placar_jogador} | Computador: {placar_computador}")
+        print(f"{nome_jogador}: {placar_jogador} | Computador: {placar_computador}")
 
 while True:
     limpar_tela()    
@@ -31,7 +33,7 @@ while True:
             print("❌ Jogada inválida. Tente novamente.")
 
     if jogador == 9:
-        print("\nObrigado por jogar! Até a próxima 👋")
+        print(f"\nObrigado por jogar {nome_jogador}! Até a próxima 👋")
         exibir_placar("final")
         break
 
@@ -39,7 +41,7 @@ while True:
     computador = random.choice([1, 2, 3])
 
     # Mostrar a escolha em texto
-    print(f"\nVocê escolheu: {opcoes[jogador]}")
+    print(f"\n{nome_jogador} escolheu: {opcoes[jogador]}")
     print(f"O computador escolheu: {opcoes[computador]}")
 
 
@@ -49,7 +51,7 @@ while True:
     elif (jogador == 1 and computador == 3) or \
         (jogador == 2 and computador == 1) or \
         (jogador == 3 and computador == 2):
-        print("\n🏆 Jogador vence!")
+        print(f"\n🏆 {nome_jogador} vence!")
         placar_jogador +=1
     else:
         print("\n💻 Computador vence!")
