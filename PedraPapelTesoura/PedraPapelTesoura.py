@@ -35,6 +35,12 @@ while True:
     if jogador == 9:
         print(f"\nObrigado por jogar {nome_jogador}! Até a próxima 👋")
         exibir_placar("final")
+        if placar_jogador == placar_computador:
+            print("\nO jogo terminou empatado!")
+        elif placar_jogador > placar_computador:
+            print("\nParabéns! Você ganhou!")
+        else:
+            print("\nVocê perdeu! Melhor sorte na próxima!")
         break
 
     # Escolha aleatória do computador
