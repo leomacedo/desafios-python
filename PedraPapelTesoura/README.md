@@ -17,6 +17,7 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
 - Sistema de **placar parcial e final** atualizado a cada rodada, exibindo o nome do jogador.
 - **Limpeza automática da tela** entre rodadas (somente em terminais reais).
 - Interface leve e com emojis para deixar a experiência mais divertida.
+- Exibição de mensagens de resultado ao sair do jogo.
 
 ---
 
