@@ -14,10 +14,11 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
   - `3` = Tesoura
   - `9` = Sair do jogo
 - O computador realiza uma jogada aleatória.
-- Sistema de **placar parcial e final** atualizado a cada rodada, exibindo o nome do jogador.
+- Sistema de **placar parcial e final** exibindo o nome do jogador.
+- Exibição de **mensagem de vitória, derrota ou empate** ao final da sessão.
+- **Registro de partidas em arquivo `.txt`** opcional, com data, nome do jogador e placar.
 - **Limpeza automática da tela** entre rodadas (somente em terminais reais).
 - Interface leve e com emojis para deixar a experiência mais divertida.
-- Exibição de mensagens de resultado ao sair do jogo.
 
 ---
 
@@ -54,3 +55,9 @@ Este é um projeto simples em Python que simula o clássico jogo **Pedra, Papel 
 📍 Aracaju, SE – Brasil
 
 ---
+
+## 📁 Registro de Partidas
+
+Ao final de cada sessão, o jogador pode optar por registrar a partida em um arquivo chamado `registro_partidas_.txt`, contendo:
+
+> Esse arquivo **é ignorado no Git** por estar listado no `.gitignore`, mantendo o repositório limpo.
